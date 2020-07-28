@@ -1,0 +1,28 @@
+{{#if showChat}}
+{{#chat-room
+   users=room.users
+   messages=room.messages
+   topic=room.topic
+
+   onSendChat="sendChat"
+}}{{/chat-room}}
+{{/if }}
+
+{{#if showLogin}}
+<div class="ui grid">
+  <div class="four wide column"></div>
+  <div class="eight wide center aligned column">
+    <div class="ui segment">
+      <div class="ui huge orange header">ChatR</div>
+
+      <div class="ui form">
+        <div class="field {{formError}}">
+          <label>Nickname</label>
+          {{input action="joinChat" value=nickname type="text" placeholder="Nickname"}}
+        </div>
+        <div {{action "joinChat"}} class="massive ui orange button"> Join Chat </div>
+      </div>
+    </div>
+  </div>
+</div> 
+{{/if}}

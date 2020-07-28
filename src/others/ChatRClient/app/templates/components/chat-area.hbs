@@ -1,0 +1,20 @@
+<div class="ui top attached inverted segment">
+  <div class="ui inverted list chatr-messagelist">
+
+    {{#each message in messages}}
+      <div class="item">
+        <div class="ui image">
+          <a class="ui purple label">{{message.sender}}</a>
+        </div>
+        <div class="content">
+          {{message.content}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
+<div class="ui form">
+  <div class="field">
+    {{input action="sendChat" value=chatInput type="text"}}
+  </div>
+</div>

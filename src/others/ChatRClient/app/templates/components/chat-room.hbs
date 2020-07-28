@@ -1,0 +1,15 @@
+<div class="ui vertically padded page grid">
+  <div class="four wide column">
+    {{#chat-userlist users=users}}{{/chat-userlist}}
+  </div>
+  <div class="twelve wide column">
+    <div class="ui top attached inverted segment">
+      <div class="ui dividing orange header">
+        {{topic}}
+      </div>
+      {{#chat-area 
+         onSendChat="onSendChat"
+         messages=messages}}{{/chat-area}}
+    </div>
+  </div>
+</div>

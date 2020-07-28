@@ -1,0 +1,11 @@
+.chatr-userlist {
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.chatr-messagelist {
+    height: 440px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

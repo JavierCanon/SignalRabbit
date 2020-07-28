@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50FA6278-53C4-4965-ABDA-705EBF2EDC3A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		ACKNOWLEDGMENTS.md = ACKNOWLEDGMENTS.md
+		AUTHORS.md = AUTHORS.md
+		CHANGELOG.md = CHANGELOG.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		RELEASE.md = RELEASE.md
+		ROADMAP.md = ROADMAP.md
+		SECURITY.md = SECURITY.md
+		TODO.md = TODO.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {798AA4A6-9F37-4CFE-A884-BF01C7BE7086}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+<div class="ui top attached inverted segment">
+  <div class="item">Users ({{users.length}})</div>
+</div>
+<div class="ui bottom attached active inverted segment">
+  <div class="ui selection inverted relaxed divided list chatr-userlist">
+    {{#each user in users}}
+      <div class="item">
+        {{user.name}}
+      </div>
+    {{/each}}
+  </div>
+</div>
